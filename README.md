@@ -87,5 +87,10 @@ Repositorio: taller/
 │ └── tablero.cpp
 
 │ └── tablero.h
+# Compilar
+g++ -std=c++17  main.cpp pieza.cpp tablero.cpp jugador.cpp roles.cpp habilidades.cpp juego.cpp menu.cpp -o damas.exe
+
+# Ejecutar
+./damas.exe
 Innovacion:
 Nuevo modo de juego de damas internacionales, incluyendo un modo el cual es el de roles, que tiene tres: rey, guerrero y mago, el cual cada uno tiene sus habilidades y ventajas sobre el otro, esto tiene potencial ya que cambia la forma de jugarlo sin quitarle la esencia al juego de damas chinas, que hace que no sea monotoma la jugabilidad, y sean infinitas las posibilidades de jugar este
